@@ -72,3 +72,9 @@ com:
 
         refresh-token:
           validity: 120
+
+      open-api:
+        enable: true
+        api-version: 1.0.0
+        title: Yian_Security
+        description: Java backend application using spring-security to implement jwt base authentication and authorization
