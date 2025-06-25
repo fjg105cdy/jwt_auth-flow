@@ -19,3 +19,56 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+com:
+  yian:
+    jwtauthflow:
+      token:
+        access-token:
+          private-key:
+            -----BEGIN PRIVATE KEY-----
+            MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6EtVAUmOL1/xm
+            qWQAyEq0qcdjbCkdf62RxJoLzqPZNVwmx+Ku//SQEMd8Rv4vNgHhrPiQ7Ks73JQJ
+            bFghL2ElthyPRhHdZuCif+24fhQjiofK0RLCDpgw/GDuxTTvtyfg/4RoNRYlIvd1
+            OIZ/e/nbFxCL517LjJS8MsA4vjZGde11S9/U+B9Yklr4hcQltLZpGn8TDp18Zls/
+            C9GdvV7HFTI9uISlA3+6jAm6odfwLbIXrlMN9o8V2m9qnvrQVTrI8nlQHK2sWphj
+            SDTCDPOS7No2Fr1DZUP3AZlZbtk9n+kXQpKyijdM5IMoC86w55u+4C9vyEUB0kS+
+            AMR7tsv1AgMBAAECggEBAJVXuEC/35XF7JaZLeJS32LRQW7SyM0cRLrSCLGhUHBt
+            G2Ek3ROH60oVrYZZlHlf53Kx2W64BVcuWsKVasZ3uIkD+TglDQGeKH1EIBALYS6F
+            aSenVl7aR9xJM6NwNGSRpDg53JOmx/dWcTZr/8ciQg9OG8GuGa9VTasfMJhaUkWJ
+            0fKlNSrqFxHgJjRujt/6AEpoZHOmlUMIoRVTNoU9tNjNjC+C0MyMORnBTKE/nDTT
+            TFI01CT0I7t2ECDWd3qQgTCoqxZAKogGGXGQFNOTWlk5fxjHkrMj/H2g4CHFN1IA
+            aAATkE2i+0qCdvT98IggNELSlLE3ifxYnrcVyPy1pwECgYEA52FFoN/rIGC64Q+2
+            6J4Rw08DyjWaeBqw+LJ2Ty0DliES991YI03lgaGioVkJlz+e5MfKi2zIulzGBAoY
+            l9LB5+2u1LrhiMgucix5G8aDOjrgLQS/v515OqW/cp9b7rv93jqRKp2vGMQEcVDG
+            yll6iyzqGhV+sqHkSLjDL8d5ifkCgYEAzd9tRRHJ5pNGhPvTAe1ez7omDXZWjPsV
+            zsymlVxXiioaz5dRszl2gQv5OS3eMWfKQC772ZH0NAnmnS5EJ/Wh++h+QuY9XA/Q
+            4K1cFyKC66BLeksLKq7iMALk82+kc3wbAT4hf+dw+hp3K7JVxW5u6YrNg98nNxdh
+            X7xA98hMMN0CgYAKFGO7IWYV0AD0IwId2hz9/Cg3G+SxzL/e5a9fvZ9FYAV6hMr9
+            JryTzB3Ql5diXmQmpUl+j2ujKr15mZL+sjC+UM1n+QgwNEBJuwQ/oINA+yWe8HEG
+            AO8yDdxsOuL/YHMrxjNivuHM22UyJomycPl0rK06G6ucTo8qV9ow76isyQKBgFYc
+            7+LlNvO4hNXZVADJXlA7h/E3n6pm2E9hMQjm0EMdq4tLu0PhdF00OfId6oP16xZ/
+            0J7IO0KNJaZ3lNC2ISRysmWfUukwQGnKeeu/Zs3Shd/Ihgo7jqcQft4Iw9v+fHk/
+            mNmcYJhs+44OkWv87m3HvoE7lXao0/UslGxQnvYNAoGBAIrknl3u6cgIS2ZkIRY7
+            oQIXs+W8EpCcFANmQWUQemPf6F0rW6gctvbPs1rWNJ8NLELYT2J0CGP+OXut/6WM
+            nANRr3QfcdlI+EJVK2ddIE5x8ZYDCnGMboITfaNoGuU+SPPXeH4IbBzJzxDWveuS
+            EqArIp7GZp2FdO6oOXxAdjgW
+            -----END PRIVATE KEY-----
+
+
+
+          public-key:
+            -----BEGIN PUBLIC KEY-----
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuhLVQFJji9f8ZqlkAMhK
+            tKnHY2wpHX+tkcSaC86j2TVcJsfirv/0kBDHfEb+LzYB4az4kOyrO9yUCWxYIS9h
+            JbYcj0YR3Wbgon/tuH4UI4qHytESwg6YMPxg7sU077cn4P+EaDUWJSL3dTiGf3v5
+            2xcQi+dey4yUvDLAOL42RnXtdUvf1PgfWJJa+IXEJbS2aRp/Ew6dfGZbPwvRnb1e
+            xxUyPbiEpQN/uowJuqHX8C2yF65TDfaPFdpvap760FU6yPJ5UBytrFqYY0g0wgzz
+            kuzaNha9Q2VD9wGZWW7ZPZ/pF0KSsoo3TOSDKAvOsOebvuAvb8hFAdJEvgDEe7bL
+            9QIDAQAB
+            -----END PUBLIC KEY-----
+
+          validity: 30
+
+        refresh-token:
+          validity: 120
